@@ -1,0 +1,18 @@
+{
+  "id" : "6279c608-502e-4ee1-9c94-0918f6e5d648",
+  "request" : {
+    "urlPath" : "/sayHello",
+    "method" : "GET",
+    "queryParameters" : {
+      "user" : {
+        "equalTo" : "Johnwood"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Hi Johnwood, welcome to you! The server port is null",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "6279c608-502e-4ee1-9c94-0918f6e5d648"
+}

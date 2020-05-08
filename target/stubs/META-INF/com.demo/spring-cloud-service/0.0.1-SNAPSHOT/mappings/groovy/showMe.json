@@ -1,0 +1,16 @@
+{
+  "id" : "0c671db9-405b-4ad4-93ab-e862480f7476",
+  "request" : {
+    "url" : "/showMe",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":0,\"name\":\"Mooodo\",\"gender\":\"male\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "0c671db9-405b-4ad4-93ab-e862480f7476"
+}

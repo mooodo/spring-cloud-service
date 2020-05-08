@@ -1,0 +1,26 @@
+{
+  "id" : "da6a5c90-2b07-40aa-ad67-22bfe60fd592",
+  "request" : {
+    "url" : "findPerson",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['gender'] == 'male')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Mooodo')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":0,\"name\":\"Mooodo\",\"gender\":\"male\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "da6a5c90-2b07-40aa-ad67-22bfe60fd592"
+}
