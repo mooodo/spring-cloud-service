@@ -6,7 +6,7 @@ Contract.make {
 	description("find a person and show information about him.")
 	request {
 	    method POST()
-	    url("findPerson")
+	    url("/findPerson")
 	    body(name:'Mooodo',gender:'male')
 	    headers {
 			contentType(applicationJson())

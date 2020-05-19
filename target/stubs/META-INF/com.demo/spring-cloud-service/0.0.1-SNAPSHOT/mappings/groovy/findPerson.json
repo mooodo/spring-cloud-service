@@ -1,7 +1,7 @@
 {
-  "id" : "267870ed-fa04-4a07-8e37-57a7912539d7",
+  "id" : "85722e43-e8e5-4cd1-9121-53bf4139d166",
   "request" : {
-    "url" : "findPerson",
+    "url" : "/findPerson",
     "method" : "POST",
     "headers" : {
       "Content-Type" : {
@@ -22,5 +22,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "267870ed-fa04-4a07-8e37-57a7912539d7"
+  "uuid" : "85722e43-e8e5-4cd1-9121-53bf4139d166"
 }
