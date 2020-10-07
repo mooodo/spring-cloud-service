@@ -28,7 +28,7 @@ public class GroovyTest extends ContractBase {
 
 		// when:
 			ResponseOptions response = given().spec(request)
-					.post("findPerson");
+					.post("/findPerson");
 
 		// then:
 			assertThat(response.statusCode()).isEqualTo(200);

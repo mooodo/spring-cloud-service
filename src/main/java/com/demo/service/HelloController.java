@@ -6,6 +6,7 @@ package com.demo.service;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +23,7 @@ public class HelloController {
 	public String sayHello(String user) {
 		return "Hi "+user+", welcome to you! The server port is "+port;
 	}
-	@RequestMapping("showMe")
+	@GetMapping("showMe")
 	public Person showMe() {
 		Person person = new Person();
 		person.setId(0);
