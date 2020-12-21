@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.demo.GroovyTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.408 s - in com.demo.GroovyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.283 s - in com.demo.GroovyTest
