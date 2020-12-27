@@ -1,5 +1,5 @@
 {
-  "id" : "2b532498-fc0b-4a3f-9c59-bb419e1010e3",
+  "id" : "a09614f3-a190-4456-a75a-727c143422a4",
   "request" : {
     "urlPath" : "/sayHello",
     "method" : "GET",
@@ -14,5 +14,5 @@
     "body" : "Hi Johnwood, welcome to you! The server port is null",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "2b532498-fc0b-4a3f-9c59-bb419e1010e3"
+  "uuid" : "a09614f3-a190-4456-a75a-727c143422a4"
 }
